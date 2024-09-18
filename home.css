@@ -1,0 +1,798 @@
+@import 'header.css';
+@import 'footer.css';
+.container3 {
+  max-width: 100%;
+  padding: 0 120px;
+  margin: 0 auto;
+}
+
+.hero-banner {
+  padding: 80px 80px 0 80px;
+}
+
+.hero-banner-grid {
+  display: grid;
+  grid-template-columns: 1fr 484px 1fr;
+  gap: 120px;
+}
+
+.hero-banner-grid-div1 {
+  font-family: var(--font-family2);
+}
+.hero-banner-grid-div1 h4 {
+  color: var(--color5);
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.red-border {
+  padding: 10px 0 0 0;
+  border-bottom: 2px solid var(--color4);
+  width: 125px;
+  margin-bottom: 60px;
+}
+
+.prelading-service {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 23px;
+  font-family: var(--font-family3);
+}
+
+.prelading-service-div {
+  background-color: var(--colorWhite);
+  padding: 28px 0;
+  margin: 0 0 23px 0;
+  border: 1px solid var(--color2);
+  width: 100%;
+  text-align: center;
+}
+.prelading-service-div img {
+  width: 50px;
+}
+.prelading-service-div p {
+  padding: 20px 0 0 0;
+  color: var(--color5);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.prelading-service-main2 {
+  margin-top: 60px;
+}
+
+.hero-banner-grid-div2 img {
+  width: 100%;
+}
+
+.hero-banner-grid-div3 {
+  font-family: var(--font-family2);
+  text-align: right;
+}
+.hero-banner-grid-div3 h4 {
+  color: var(--color5);
+  font-size: 32px;
+}
+
+.red-border-flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.red-border2 {
+  padding: 10px 0 0 0;
+  border-bottom: 3px solid var(--color4);
+  width: 125px;
+  margin-bottom: 60px;
+}
+
+.platform {
+  padding: 80px 0;
+  background-color: var(--color6);
+}
+
+.container2 {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.platform-main {
+  text-align: center;
+}
+.platform-main h5 {
+  padding: 0 0 60px 0;
+  color: var(--color5);
+  font-family: var(--font-family2);
+  font-size: 32px;
+}
+
+.platform-main-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.platform-main-grid-div {
+  background-color: var(--colorWhite);
+  padding: 16px;
+  border-radius: 5px;
+}
+.platform-main-grid-div img {
+  width: 77px;
+  padding: 0 0 25px 0;
+}
+.platform-main-grid-div p {
+  font-size: 16px;
+  color: var(--color2);
+  font-family: var(--font-family3);
+}
+
+.online-course {
+  padding: 80px 0;
+}
+
+.online-course-main {
+  text-align: center;
+  font-family: var(--font-family2);
+}
+.online-course-main h5 {
+  padding: 0 0 60px 0;
+  color: var(--color5);
+  font-family: var(--font-family2);
+  font-size: 32px;
+}
+.online-course-main nav {
+  padding: 0 0 50px 0;
+}
+.online-course-main nav a {
+  padding: 0 25px 0 0;
+  text-decoration-line: none;
+  font-size: 16px;
+  color: var(--color7);
+  font-weight: 600;
+}
+
+.online-course-grid {
+  padding: 30px 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.online-course-grid-div {
+  border-radius: 5px;
+  border: 1px solid var(--color7);
+}
+.online-course-grid-div img {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.online-course-grid-div-pera {
+  padding: 20px 15px;
+  font-family: var(--font-family2);
+  text-align: left;
+}
+.online-course-grid-div-pera h6 {
+  font-size: 20px;
+  color: var(--color5);
+  margin: 0 0 15px 0;
+}
+
+.img-pera-grid {
+  display: grid;
+  grid-template-columns: 18px 1fr;
+  padding: 0 0 6px 0;
+  align-items: center;
+  gap: 14px;
+}
+.img-pera-grid img {
+  padding: 0;
+  height: 18px;
+}
+.img-pera-grid p {
+  font-size: 14px;
+  color: var(--color8);
+}
+.img-pera-grid p span {
+  color: var(--color4);
+  font-size: 18px;
+}
+
+.img-pera-grid-button {
+  text-align: center;
+}
+.img-pera-grid-button button {
+  margin: 15px 0;
+  background-color: var(--color4);
+  border: none;
+  border-radius: 15px;
+  width: 100%;
+  color: var(--colorWhite);
+  font-size: 14px;
+  padding: 8px 12px;
+}
+.img-pera-grid-button a {
+  font-size: 16px;
+  color: var(--color5);
+  font-weight: 500;
+}
+
+.blue-banner {
+  background-image: url("images/blue-new-banner.c6a97c2d.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.discover-futuer-grid {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 120px;
+}
+
+.discover-futuer-grid-div1 h4 {
+  color: var(--colorWhite);
+  font-size: 32px;
+  font-family: var(--font-family2);
+  margin: 0 0 40px 0;
+}
+.discover-futuer-grid-div1 p {
+  color: var(--colorWhite);
+  font-size: 16px;
+  font-family: var(--font-family2);
+  margin: 0 0 60px 0;
+}
+.discover-futuer-grid-div1 p small {
+  color: var(--color9);
+  font-size: 16px;
+  font-family: var(--font-family2);
+  font-weight: 600;
+}
+
+.discover-futuer-grid-div2 img {
+  width: 100%;
+}
+
+.discover-futuer-grid-flex {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  grid-gap: 16px;
+  gap: 16px;
+  align-items: center;
+  padding: 0 0 16px;
+}
+
+.discover-futuer-grid-flex-div {
+  width: 100%;
+  height: 45px;
+  background-color: var(--colorWhite);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discover-futuer-grid-flex-div img {
+  width: 32px;
+}
+
+.discover-futuer-grid-flex-div2 span {
+  color: var(--colorWhite);
+  font-size: 16px;
+  font-family: var(--font-family2);
+  font-weight: 600;
+}
+
+.button-type button {
+  margin: 20px 0 0 0;
+  background-color: var(--color4);
+  border: none;
+  border-radius: 20px;
+  color: var(--colorWhite);
+  font-size: 14px;
+  padding: 8px 16px;
+  min-width: 160px;
+  height: 40px;
+}
+
+.student-finance {
+  background-image: url("images/PersonalisedGuidance.f4c2b686.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.student-finance-grid {
+  display: grid;
+  grid-template-columns: 570px 1fr;
+  gap: 100px;
+  font-family: var(--font-family2);
+}
+
+.student-finance-grid-div1 {
+  background-color: var(--colorWhite);
+  padding: 25px;
+  border-radius: 12px;
+  height: 100%;
+}
+
+.student-finance-grid-div1 h5 {
+  color: var(--color5);
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.student-finance-grid-div1 p {
+  color: var(--color2);
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.student-finance-grid-div1-main {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  gap: 20px 20px;
+  padding: 0 0 25px 0;
+}
+
+.input-label label {
+  font-size: 14px;
+  color: var(--color2);
+  font-weight: 600;
+}
+.input-label input {
+  border: 1px solid var(--color10);
+  width: 219px;
+  padding: 0 14px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.input-label ::-moz-placeholder {
+  color: var(--color10);
+}
+.input-label ::placeholder {
+  color: var(--color10);
+}
+.input-label select {
+  display: block;
+  border: 1px solid var(--color10);
+  width: 100%;
+  padding: 0 14px;
+  height: 32px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.input-label-button {
+  display: flex;
+  align-items: center;
+}
+.input-label-button input {
+  width: 144px;
+}
+.input-label-button select {
+  height: 34px;
+  border: 1px solid var(--color10);
+  width: 75px;
+  padding: 0 10px;
+  height: 35px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.input-label-button-main {
+  text-align: center;
+}
+.input-label-button-main button {
+  background-color: var(--color4);
+  border: none;
+  border-radius: 25px;
+  color: var(--colorWhite);
+  font-size: 16px;
+  padding: 8px 16px;
+  min-width: 200px;
+  height: 50px;
+}
+
+.student-finance-grid-div2 h2 {
+  color: var(--color5);
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.student-finance-grid-div2 p {
+  color: var(--color2);
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+.student-finance-grid-div2 p small {
+  color: var(--color9);
+  font-size: 16px;
+}
+
+.student-finance-subgrid-div {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 16px;
+  align-items: center;
+  padding: 0 0 20px;
+}
+
+.student-finance-subgrid-div1 {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color11);
+  border-radius: 6px;
+  border: 1px solid var(--color10);
+}
+.student-finance-subgrid-div1 img {
+  width: 40px;
+}
+
+.student-finance-subgrid-div2 p {
+  font-size: 18px;
+  color: var(--color5);
+  margin: 0;
+  font-weight: 600;
+}
+.student-finance-subgrid-div2 span {
+  font-size: 14px;
+  color: var(--color2);
+}
+
+.button-type2 button {
+  background-color: var(--color5);
+  border: none;
+  border-radius: 20px;
+  color: var(--colorWhite);
+  font-size: 14px;
+  padding: 8px 16px;
+  min-width: 160px;
+  height: 40px;
+}
+
+.value {
+  background-image: url("images/value-service-banner.024d42d1.webp");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0 0 0;
+}
+
+.value-grid {
+  display: grid;
+  grid-template-columns: 1fr 561px;
+  gap: 60px;
+  font-family: var(--font-family2);
+}
+
+.value-grid-main1-div h2 {
+  color: var(--color5);
+  font-size: 32px;
+  margin: 0 0 60px 0;
+}
+
+.value-grid-main1-div-subgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+
+.value-subgrid-img-align {
+  display: flex;
+  justify-content: center;
+}
+
+.value-subgrid-img {
+  text-align: center;
+}
+.value-subgrid-img p {
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--color5);
+  font-weight: 500;
+}
+
+.value-subgrid-img-bg {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: var(--color11);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.value-subgrid-img-bg img {
+  width: 33px;
+}
+
+.value-grid-main2 img {
+  width: 100%;
+}
+
+.student-about {
+  padding: 90px 0;
+  text-align: center;
+}
+.student-about h1 {
+  font-size: 32px;
+  color: var(--color5);
+  font-family: var(--font-family2);
+}
+
+.student-about-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  font-family: var(--font-family2);
+}
+
+.student-about-grid-main {
+  padding: 20px;
+  background-color: var(--color12);
+}
+.student-about-grid-main h5 {
+  font-size: 18px;
+  color: var(--color5);
+  padding: 20px 0;
+}
+.student-about-grid-main p {
+  font-size: 16px;
+  color: var(--color2);
+  padding-top: 15px;
+}
+
+.student-about-grid-main-bg {
+  background-color: var(--color13);
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.student-about-grid-main-bg h1 {
+  color: var(--color5);
+  font-size: 32px;
+}
+
+.ratting-star {
+  display: flex;
+  gap: 5px;
+  padding: 5px 0 20px 0;
+}
+.ratting-star img {
+  width: 15px;
+}
+
+.student-about-grid-main-span {
+  display: flex;
+  align-items: center;
+}
+.student-about-grid-main-span span {
+  color: var(--color5);
+  font-size: 32px;
+  font-weight: 600;
+}
+.student-about-grid-main-span .line {
+  border-bottom: 1px solid var(--color10);
+  width: 100%;
+}
+
+.see-all {
+  padding: 20px 0 80px 0;
+  text-align: center;
+}
+.see-all button {
+  background-color: var(--color5);
+  border: none;
+  border-radius: 999px;
+  color: var(--colorWhite);
+  font-size: 16px;
+  padding: 9px 25px;
+  min-width: 180px;
+  height: 50px;
+}
+
+@media (max-width: 1024px) {
+  .container3 {
+    padding: 0 40px;
+  }
+  .container2 {
+    padding: 0 40px;
+  }
+  .hero-banner {
+    padding: 0;
+  }
+  .hero-banner-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-banner-grid-div1 h4 {
+    font-size: 28px;
+  }
+  .prelading-service-main {
+    display: flex;
+    gap: 20px;
+  }
+  .prelading-service-main2 {
+    margin-top: 0;
+    display: flex;
+    gap: 20px;
+  }
+  .hero-banner-grid-div2 {
+    margin: 0 120px;
+  }
+  .hero-banner-grid-div3 h4 {
+    font-size: 28px;
+  }
+  .platform-main h5 {
+    font-size: 28px;
+  }
+  .platform-main-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .online-course-main h5 {
+    font-size: 28px;
+  }
+  .online-course-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .discover-futuer-grid {
+    display: block;
+  }
+  .student-finance-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .student-finance-grid-div1 {
+    height: auto;
+  }
+  .value-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .student-about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 576px) {
+  .container3 {
+    padding: 0 20px;
+  }
+  .container2 {
+    padding: 0 20px;
+  }
+  .hero-banner-grid {
+    gap: 50px;
+  }
+  .hero-banner-grid-div1 h4 {
+    font-size: 22px;
+  }
+  .prelading-service {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .prelading-service-div img {
+    width: 30px;
+  }
+  .prelading-service-div p {
+    font-size: 12px;
+  }
+  .hero-banner-grid-div2 {
+    margin: 0;
+  }
+  .hero-banner-grid-div3 h4 {
+    font-size: 22px;
+  }
+  .platform-main h5 {
+    font-size: 22px;
+  }
+  .platform-main-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .platform-main-grid-div img {
+    width: 50px;
+  }
+  .platform-main-grid-div p {
+    font-size: 14px;
+  }
+  .online-course-main h5 {
+    font-size: 22px;
+  }
+  .online-course-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .online-course-main {
+    text-align: center;
+    font-family: var(--font-family2);
+  }
+  .online-course-main h5 {
+    padding: 0 0 40px;
+    font-size: 22px;
+  }
+  .online-course-main nav {
+    padding: 0 0 30px 0;
+  }
+  .online-course-main nav a {
+    font-size: 14px;
+    padding: 0 15px 0 0;
+  }
+  .discover-futuer-grid-div1 h4 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+  }
+  .discover-futuer-grid-div1 p {
+    font-size: 14px;
+  }
+  .discover-futuer-grid-div1 p small {
+    font-size: 14px;
+  }
+  .student-about-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .student-finance-grid-div1 {
+    padding: 15px;
+    height: auto;
+  }
+  .student-finance-grid-div1-main {
+    grid-template-columns: 300px;
+  }
+  .student-finance-grid-div2 h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .student-finance-grid-div2 p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .student-finance-grid-div2 p small {
+    font-size: 14px;
+  }
+  .student-finance-subgrid-div2 p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .student-finance-subgrid-div2 span {
+    font-size: 12px;
+  }
+  .input-label input {
+    width: 270px;
+  }
+  .value-grid-main1-div h2 {
+    font-size: 22px;
+  }
+  .value-grid-main1-div .value-grid-main1-div-subgrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .student-about {
+    padding: 50px 0;
+  }
+  .student-about h1 {
+    font-size: 22px;
+  }
+  .student-about-grid-main h5 {
+    font-size: 16px;
+  }
+  .student-about-grid-main p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .student-about-grid-main-bg {
+    width: 70px;
+    height: 70px;
+  }
+  .student-about-grid-main-bg h1 {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=home.css.map */
